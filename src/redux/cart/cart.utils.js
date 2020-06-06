@@ -1,5 +1,4 @@
-import cartIconComponent from "../../components/cart-icon/cart-icon.component";
-import CartActionTypes from "./cart.types";
+
 
 export const addItemToCart = (cartItems, cartItemToAdd) => {
     const existingCartItems = cartItems.find(cartItem => cartItem.id === cartItemToAdd.id);
